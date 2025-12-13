@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento HTML5 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piscícola Kampu</title>
+
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ================= HEADER =================
+         Contiene el encabezado principal del sitio
+         Cumple con: encabezados <h1> y texto con <strong> y <em>
+    -->
+    <header>
+        <h1>Piscícola Kampu</h1>
+        <p><strong>Producción sostenible</strong> de <em>tilapia de alta calidad</em> en la Amazonía ecuatoriana.</p>
+    </header>
+
+    <!-- ================= NAV =================
+         Menú de navegación del sitio
+         Uso de lista desordenada <ul>
+    -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#produccion">Producción</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================= MAIN =================
+         Contenido principal del sitio
+         Uso de etiquetas semánticas <main>, <section> y <article>
+    -->
+    <main>
+
+        <!-- ===== Sección Inicio ===== -->
+        <section id="inicio">
+            <h2>¿Quiénes somos?</h2>
+
+            <!-- Article para contenido independiente -->
+            <article>
+                <h3>Nuestra misión</h3>
+                <p>
+                    En Piscícola Kampu nos dedicamos a la 
+                    <strong>crianza responsable de tilapia</strong>,
+                    aplicando buenas prácticas acuícolas y garantizando un producto 
+                    <em>fresco y saludable</em>.
+                </p>
+
+                <!-- Imagen cargada desde el repositorio con atributo alt -->
+                <img src="assets/img/imagen1.jpg" alt="Estanque de producción de tilapia en Piscícola Kampu">
+            </article>
+        </section>
+
+        <!-- ===== Sección Servicios ===== -->
+        <section id="servicios">
+            <h2>Servicios</h2>
+
+            <!-- Lista desordenada <ul> -->
+            <ul>
+                <li>Producción de tilapia para consumo</li>
+                <li>Venta al por mayor y por quintales</li>
+                <li>Asesoría básica en piscicultura</li>
+            </ul>
+        </section>
+
+        <!-- ===== Sección Producción ===== -->
+        <section id="produccion">
+            <h2>Proceso de producción</h2>
+
+            <!-- Lista ordenada <ol> -->
+            <ol>
+                <li>Recepción de alevines</li>
+                <li>Precría controlada</li>
+                <li>Engorde en estanques</li>
+                <li>Cosecha y comercialización</li>
+            </ol>
+
+            <!-- Tabla con thead, tbody y th -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Etapa</th>
+                        <th>Duración</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Precría</td>
+                        <td>2 meses</td>
+                    </tr>
+                    <tr>
+                        <td>Engorde</td>
+                        <td>2 a 3 meses</td>
+                    </tr>
+                    <tr>
+                        <td>Ciclo total</td>
+                        <td>4 a 5 meses</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Video cargado desde el repositorio -->
+            <video controls width="400">
+                <source src="assets/video/video1.mp4" type="video/mp4">
+                Tu navegador no soporta video HTML5.
+            </video>
+        </section>
+
+        <!-- ===== Sección Contacto ===== -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+
+            <!-- Formulario con nombre, correo y botón -->
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <!-- Enlace externo con target _blank -->
+            <p>
+                Más información en 
+                <a href="https://www.gob.ec" target="_blank">Gobierno del Ecuador</a>
+            </p>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER =================
+         Pie de página del sitio
+    -->
+    <footer>
+        <p>&copy; 2025 Piscícola Kampu - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

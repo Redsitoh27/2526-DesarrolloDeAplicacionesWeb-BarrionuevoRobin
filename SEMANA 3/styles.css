@@ -1,0 +1,131 @@
+/* ================= ESTILOS GENERALES =================
+   Aplica fuente, colores base y fondo del sitio
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f7; /* Color personalizado */
+    color: #333;
+}
+
+/* ================= HEADER =================
+   Estilo del encabezado principal
+*/
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ================= NAV =================
+   Estilos del menú de navegación
+*/
+nav {
+    background-color: #1f6f50;
+}
+
+nav ul {
+    list-style: none; /* Quita viñetas */
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ================= CONTENIDO PRINCIPAL ================= */
+main {
+    padding: 20px;
+}
+
+/* ================= ENCABEZADOS Y PÁRRAFOS =================
+   Cumple con estilos a h1, h2, h3 y p
+*/
+h1, h2, h3 {
+    color: #1f6f50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ================= IMÁGENES ================= */
+img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* ================= TABLA =================
+   Bordes y estilos solicitados
+*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #1f6f50;
+}
+
+th {
+    background-color: #2e8b57;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* ================= FORMULARIO =================
+   Bordes y estilos del formulario
+*/
+form {
+    background-color: #e6f2ee;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background-color: #1f6f50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
