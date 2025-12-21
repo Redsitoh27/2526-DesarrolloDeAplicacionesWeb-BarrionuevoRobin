@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Granja Kampu - Piscicultura</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Scroll suave para enlaces internos -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Granja Kampu</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#estanques">Estanques</a></li>
+                <li class="nav-item"><a class="nav-link" href="#alimentacion">Alimentación</a></li>
+                <li class="nav-item"><a class="nav-link" href="#produccion">Producción</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= ENCABEZADO ================= -->
+<header class="container text-center my-5">
+    <h1>Granja Kampu</h1>
+    <p class="lead">Producción sostenible de peces de agua dulce</p>
+</header>
+
+<!-- ================= SECCIÓN PRINCIPAL ================= -->
+<main class="container my-5">
+    <div class="row">
+
+        <!-- IMAGEN 1: ESTANQUES -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="assets/img/imagen1.jpg" class="img-fluid card-img-top" alt="Estanques piscícolas de la Granja Kampu">
+                <div class="card-body">
+                    <h3><a href="#estanques" class="text-decoration-none text-dark">Estanques</a></h3>
+                    <p>Contamos con estanques tecnificados para la cría controlada de especies piscícolas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAGEN 2: ALIMENTACIÓN -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="assets/img/imagen2.jpg" class="img-fluid card-img-top" alt="Alimentación de peces en la Granja Kampu">
+                <div class="card-body">
+                    <h3><a href="#alimentacion" class="text-decoration-none text-dark">Alimentación</a></h3>
+                    <p>Utilizamos alimento balanceado que garantiza un crecimiento saludable de los peces.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAGEN 3: PRODUCCIÓN -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow">
+                <img src="assets/img/imagen3.jpg" class="img-fluid card-img-top" alt="Producción piscícola de la Granja Kampu">
+                <div class="card-body">
+                    <h3><a href="#produccion" class="text-decoration-none text-dark">Producción</a></h3>
+                    <p>Nuestra producción está orientada al consumo local y al desarrollo comunitario.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<!-- ================= BOTÓN COLLAPSE ================= -->
+<section class="container text-center my-4">
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#infoKampu">
+        Conoce más sobre Kampu
+    </button>
+
+    <div class="collapse mt-3" id="infoKampu">
+        <div class="card card-body">
+            <p>
+                <strong>Granja Kampu</strong> es un proyecto de piscicultura enfocado en la producción
+                sostenible de peces de agua dulce, aplicando buenas prácticas de manejo ambiental,
+                uso eficiente del recurso hídrico y alimentación balanceada.
+            </p>
+            <p>
+                El proyecto busca fortalecer la economía local mediante la producción responsable,
+                garantizando la calidad del producto final y el bienestar de las especies cultivadas.
+                Kampu integra conocimientos técnicos, control de procesos y compromiso con el entorno.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= INFORMACIÓN DETALLADA ================= -->
+<section class="container my-5">
+
+    <!-- ESTANQUES -->
+    <div id="estanques" class="mb-5">
+        <h2>Gestión de Estanques</h2>
+        <p>
+            En la Granja Kampu, los estanques piscícolas son diseñados siguiendo estándares modernos de acuicultura,
+            con un enfoque en la optimización del flujo de agua, oxigenación constante y control de temperatura. Cada estanque
+            cuenta con sistemas de entrada y salida de agua que permiten renovar el agua sin afectar el ecosistema interno.
+        </p>
+        <p>
+            Se implementa un monitoreo periódico de parámetros físico-químicos, como oxígeno disuelto, pH, temperatura
+            y turbidez, asegurando que las condiciones sean óptimas para el desarrollo de especies como tilapia y trucha.
+            Además, se realiza limpieza regular de sedimentos y control de algas para prevenir enfermedades y mantener
+            un ambiente saludable.
+        </p>
+        <p>
+            Según FAO (2019), el manejo adecuado de estanques incluye planificación del tamaño, profundidad y densidad de siembra
+            para maximizar la producción sin comprometer la calidad del agua. La Granja Kampu aplica estos principios
+            para garantizar un crecimiento uniforme y sostenible de los peces.
+        </p>
+    </div>
+
+    <!-- ALIMENTACIÓN -->
+    <div id="alimentacion" class="mb-5">
+        <h2>Alimentación de los Peces</h2>
+        <p>
+            La alimentación en Kampu se basa en dietas balanceadas, formuladas según la etapa de desarrollo de cada especie.
+            Se utilizan pellets de alta calidad con niveles controlados de proteína, grasas y micronutrientes, asegurando
+            que los peces reciban todos los elementos necesarios para un crecimiento saludable.
+        </p>
+        <p>
+            Los horarios y cantidades de alimento se ajustan a las necesidades biológicas de los peces y a las condiciones
+            del estanque. Este control evita el sobrealimentado, reduce la contaminación del agua y mejora la conversión
+            alimenticia (FCR – Feed Conversion Ratio).
+        </p>
+        <p>
+            Además, Kampu implementa estrategias de alimentación progresiva, donde los peces jóvenes reciben dietas
+            más finas y con mayor frecuencia, mientras que los adultos se alimentan con raciones más grandes y espaciadas.
+            Estudios de acuicultura moderna recomiendan este enfoque para reducir mortalidad y estrés, aumentando la productividad.
+        </p>
+        <p>
+            El proyecto también investiga continuamente nuevas formulaciones con ingredientes locales y sostenibles,
+            contribuyendo a la reducción de costos y al impacto ambiental.
+        </p>
+    </div>
+
+    <!-- PRODUCCIÓN -->
+    <div id="produccion" class="mb-5">
+        <h2>Producción Piscícola</h2>
+        <p>
+            La producción en la Granja Kampu combina tecnología, manejo responsable y planificación estratégica. Se realiza
+            un seguimiento detallado del crecimiento de los peces mediante registros diarios de talla, peso y estado sanitario.
+            Esto permite determinar el momento óptimo de cosecha y asegurar que los peces alcanzan los estándares de calidad
+            exigidos para consumo.
+        </p>
+        <p>
+            La granja aplica principios de producción sostenible, minimizando el impacto ambiental mediante el manejo eficiente
+            de agua y nutrientes. Las prácticas incluyen rotación de estanques, control de densidad de siembra y prevención
+            de enfermedades sin depender de antibióticos de forma indiscriminada, siguiendo recomendaciones internacionales.
+        </p>
+        <p>
+            Además, Kampu prioriza la producción para mercados locales, promoviendo la economía regional y ofreciendo
+            pescado fresco y saludable. La trazabilidad y control de calidad cumplen con estándares que aseguran seguridad
+            alimentaria, como lo recomiendan FAO (2020) y expertos en acuicultura responsable.
+        </p>
+        <p>
+            La combinación de técnicas modernas, monitoreo constante y enfoque sostenible permite que Granja Kampu sea
+            un modelo de producción responsable, replicable en otras regiones con condiciones similares.
+        </p>
+    </div>
+
+</section>
+
+<!-- ================= FORMULARIO ================= -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+
+    <form>
+        <div class="mb-3 form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+
+        <div class="mb-3 form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+        </div>
+
+        <div class="mb-3 form-group">
+            <label>Comentarios</label>
+            <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <button class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer text-center bg-light py-4">
+    <p>&copy; 2025 Granja Kampu - Piscicultura</p>
+    <a href="#">Inicio</a> |
+    <a href="#produccion">Producción</a> |
+    <a href="#">Contacto</a>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

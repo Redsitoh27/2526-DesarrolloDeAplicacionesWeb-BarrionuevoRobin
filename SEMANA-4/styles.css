@@ -1,0 +1,38 @@
+/* Botón principal */
+.btn-primary {
+    background-color: #1b9aaa;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* Footer */
+.footer a {
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+/* Media query personalizada */
+@media (max-width: 576px) {
+    body {
+        background-color: #e6f7f9;
+    }
+
+    h1 {
+        color: #1b9aaa;
+    }
+}
