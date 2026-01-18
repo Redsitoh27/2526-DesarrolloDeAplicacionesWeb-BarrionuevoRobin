@@ -1,0 +1,14 @@
+/* Fondo con degradado */
+.bg-gradient {
+    background: linear-gradient(135deg, #1e90ff, #6a5acd);
+}
+
+/* Estilo para inputs válidos */
+.form-control.is-valid {
+    border-color: #198754;
+}
+
+/* Estilo para inputs inválidos */
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
